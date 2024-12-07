@@ -16,3 +16,19 @@ nav ul li a {
     text-decoration: none;
     color: black;
 }
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.product {
+    text-align: center;
+}
