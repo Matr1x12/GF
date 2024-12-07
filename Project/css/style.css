@@ -49,3 +49,24 @@ button {
     border: none;
     padding: 10px;
 }
+
+@media (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        margin-bottom: 20px;
+    }
+
+    form {
+        width: 90%;
+    }
+}
