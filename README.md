@@ -1,0 +1,1 @@
+Website i thjesht i krijuar per shitjen e duksave. Perfshin faqe te thjeshta si: Home, About Us, Contact Us, Products and Login. Website perfshin nje responsive design, forma regjistrimi dhe kontaktimin e perdoruesve, shfaqjen e produkteve dhe blerjen e tyre dhe validim te thjesht me JavaScript.
