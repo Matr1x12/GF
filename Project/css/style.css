@@ -160,3 +160,17 @@ body {
     color: black;
     border: 1px solid black;
 }
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 10;
+}
+body {
+    padding-bottom: 50px; 
+    margin: 0;
+}
