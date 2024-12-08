@@ -111,15 +111,52 @@ button {
 }
 
 button:hover {
-    background-color: white;
+    background-color: #f4f4f400;
     color: black;
     border: 1px solid black;
 }
 
 body {
-    background-color: #f4f4f4;
+    background-color: #f4f4f400;
     color: black;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.buy-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
