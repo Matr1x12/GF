@@ -4,13 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GearForce</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Welcome to the GearForce Store</h1>
-</body>
-</html>
-<body>
-    <header>
+    <header class="transparent-header">
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -21,11 +18,18 @@
             </ul>
         </nav>
     </header>
-    <h1>Welcome to GearForce</h1>
+    <section class="hoodie-gallery">
+        <div class="hoodies">
+            <div class="hoodie" style="background-image: url('imgs/image2.jpg');"></div>
+            <div class="hoodie" style="background-image: url('imgs/image4.jpg');"></div>
+            <div class="hoodie" style="background-image: url('imgs/image6.jpg');"></div>
+        </div>
+    </section>    
+    <div class="shop-now-container">
+        <button class="shop-now-button" onclick="window.location.href='products.html';">Shop Now</button>
+    </div>
+    <footer class="fixed-footer">
+        <p>&copy; 2024 GearForce Store. All rights reserved.</p>
+    </footer>
 </body>
-<head>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<footer>
-    <p>&copy; 2024 GearForce Store. All rights reserved.</p>
-</footer>
+</html>
